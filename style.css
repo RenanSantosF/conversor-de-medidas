@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.base{
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid;
+    border: 1px solid rgb(121, 121, 121);
+}
+.input{
+    height: 44px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+}
+
+.seletor{
+    height: 44px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+}
+
+#buttonconverter{
+    border: none;
+    height: 44px;
+    width: 110px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(235, 235, 235);
+}
+
+#alerta{
+    font-size: 18px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.basearray{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho{
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.cabecalho1{
+    width: 100px;
+}
+.cabecalho2{
+    width: 100px;
+}
+
+.historico{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.separador{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}

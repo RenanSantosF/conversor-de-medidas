@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="base">
+        <div class="converter">
+            <input class="input input1" id="inputConverter" type="text" placeholder="Informe a medida">
+            <select class="seletor" id="seletor1">
+                <option class="opcao">m</option>
+                <option class="opcao">cm</option>
+            </select>
+        </div>
+    
+        <div id="adicionar" class="convertida">
+            <input disabled class="input input2" id="inputConvertido" type="text" placeholder="Converter para">
+            <select class="seletor" id="seletor2">
+                <option class="opcao">m</option>
+                <option class="opcao">cm</option>
+            </select>
+        </div>
+    
+        <h5 id="alerta"></h5>
+    
+        <button id="buttonconverter">Converter</button>
+
+        <div class="basearray">
+            <div class="cabecalho">
+                <div class="cabecalho1">
+                    <h5>Valor inserido</h5>
+                </div>
+                    
+                <div class="cabecalho2">
+                    <h5>resultado</h5>
+                </div>
+            </div>
+
+            <div class="historico">
+
+                <div class="separador">
+                    <div class="arr3">
+                        <p id="array3"></p>
+                    </div>
+                    <div class="arr2">
+                        <p id="array2"></p>
+                    </div>
+                </div>
+
+                <div class="separador">
+                    <div class="arr1">
+                        <p id="array1"></p>
+                    </div>
+                    <div class="arr4">
+                        <p id="array4"></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
